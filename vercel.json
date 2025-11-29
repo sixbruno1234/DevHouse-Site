@@ -4,14 +4,6 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "regions": ["gru1"],
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "https://devhouse.vercel.app"
-  },
-  "build": {
-    "env": {
-      "DISCORD_WEBHOOK_URL": "@discord-webhook-url"
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
